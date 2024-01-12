@@ -1,0 +1,5 @@
+.card_flex_div{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}

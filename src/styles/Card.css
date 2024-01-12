@@ -1,0 +1,72 @@
+.card_flex_div {
+    display: flex;
+    flex-direction: row;
+    /* float: left; */
+}
+
+.card_card {
+    border: 0px solid rgb(181, 181, 181);
+    min-height: 80px;
+    min-width: 250px;
+    max-width: fit-content;
+    border-radius: 5px;
+    box-shadow: 3px 3px 15px rgb(181, 181, 181);
+    margin: 20px;
+    padding: 15px;
+    float: left;
+    background-color: white;
+}
+
+.card_title {
+    color: rgb(23, 23, 23);
+    font-weight: 500;
+}
+
+.card_content {
+    color: rgb(102, 102, 102);
+}
+
+.formcss {
+    display: flex;
+    flex-direction: column;
+    width: 50vmin;
+    box-shadow: 3px 3px 15px rgb(181, 181, 181);
+    border-radius: 5px;
+    margin: 5vmin;
+    margin-left: 80vmin;
+
+
+}
+
+.createInput {
+    height: 5vmin;
+    border: none;
+    padding: 2vmin;
+}
+
+.createTextArea {
+    height: auto;
+    border: none;
+    padding: 2vmin;
+}
+
+.addBtn {
+    background-color: rgb(246, 208, 20);
+    border: none;
+    border-radius: 50%;
+    height: 40px;
+    width: 40px;
+    position: absolute;
+    top: 38vmin;
+    left: 125vmin;
+    color: aliceblue;
+    box-shadow: 1px 1px 7px rgb(140 118 14);
+}
+
+.deleteBtn {
+    border: none;
+    color: rgb(246, 208, 20);
+    font-weight: bold;
+    background-color: transparent;
+    margin-left: 30vmin;
+}
